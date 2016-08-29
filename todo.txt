@@ -1,0 +1,1 @@
+Read this article: http://poincare.matf.bg.ac.rs/~janicic//papers/2007-aiai-languages.pdf and see if I can improve my actual algorithm
