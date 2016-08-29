@@ -13,7 +13,15 @@ txt_data_folder = '/Users/stephanieo/Desktop/MLProjects/European-language-classi
 dataset = load_files(txt_data_folder, shuffle = True)
 
 #split data into test
-docs_train, docs_test, y_train, y_test = train_test_split(dataset.data, dataset.target, test_size = 0.5)
+#docs_train, docs_test, y_train, y_test = train_test_split(dataset.data, dataset.target, test_size = 0.5)
+
+#Import test data
+test_data_folder = '/Users/stephanieo/Desktop/MLProjects/European-language-classification/test/'
+testset = load_files(test_data_folder)
+
+#b/c I'm too lazy to change the rest of the variables
+docs_train, y_train = dataset.data, dataset.target
+docs_test, y_test = testset.data, testset.target 
 
 #Vectorizer to split text into n-grams for n \in {1, 2, 3}
 
