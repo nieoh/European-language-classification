@@ -1,5 +1,5 @@
 # European language classification
-Challenge for startup.ml. Find the challenges <a href = "http://startup.ml/challenge">here</a>. 
+Challenge for startup.ml. Find the challenges <a href = "http://startup.ml/challenge">here</a>. A writeup for the project can be found in the <a href = "https://github.com/nieoh/European-language-classification/blob/master/ProjectWriteup.ipynb">project writeup notebook</a>.
 
 Classify 21 different European languages using the data given by the <a href = "http://www.statmt.org/europarl/">European Parliament Proceedings Parallel Corpus from 1996-2011</a>. 
 
